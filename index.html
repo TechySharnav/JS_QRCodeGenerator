@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>QR Code Generator</title>
+</head>
+<link rel='stylesheet' type='text/css' href="style.css">
+<script src="qrcode.js"></script>
+
+<body>
+    <div class="input" id="QRText">
+        <input id="inpt" type="text" maxlength=40 placeholder="Enter text or a link"> <button onclick="generate()"
+            id="arrow">→</button>
+    </div>
+    <div class="warn" id="warning">
+        <p>[!] Please Enter Something. Can't Generate for Empty Input!</p>
+    </div>
+    <div id="qrcode"></div>
+    <script src="sketch.js"></script>
+</body>
+
+</html>
